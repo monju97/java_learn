@@ -23,7 +23,7 @@ public class calt {
     //     System.out.println("invalid");
 
     // }
-    
+    //hi all
     
     do{
         i=input.next().charAt(0);
