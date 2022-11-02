@@ -26,7 +26,7 @@ public class array2D {
 
             }  
         }
-        System.out.print("First Matrix=");
+        System.out.print("First Matrix=\n");
         for(int row=0;row<2;row++){
             for(int col=0;col<3;col++){
                 System.out.print(" "+first[row][col]);                
@@ -35,18 +35,26 @@ public class array2D {
             System.out.print("\n");
 
         }
+        System.out.println("Second Matrix=");
         for(int row=0;row<2;row++){
             for(int col=0;col<3;col++){
-                System.out.print(" "+first[row][col]);                
+                System.out.print(" "+second[row][col]);                
 
             }  
             System.out.print("\n");
 
         }
+        System.out.print("\n\n");
+        //Sum of matrix
+        System.out.println("Sum of matrix=");
+        for(int row=0;row<2;row++){
+            for(int col=0;col<3;col++){
+                System.out.print(" "+(first[row][col]+second[row][col]));                
 
+            }  
+            System.out.print("\n");
 
-
-
+        }
          
     }
 
