@@ -22,6 +22,7 @@ public class firstarray {
         sum=sum+first[i];
 
     }
+
     for(int i=1;i<first.length;i++){
 
         if (max<first[i]) {
